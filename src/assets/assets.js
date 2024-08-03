@@ -15,6 +15,8 @@ import queue from './queue.png'
 import speaker from './speaker.png'
 import low_volume from './low-volume.png'
 import mini_player from './mini_player.png'
+import left_arrow from './left-arrow.png'
+import right_arrow from './right-arrow.png'
 import zoom from './zoom.png'
 import img1 from './1.jpg'
 import img2 from './2.jpg'
@@ -44,6 +46,8 @@ export const assets = {
     speaker,
     low_volume,
     mini_player,
+    left_arrow,
+    right_arrow,
     zoom,
     stack,
     img1,
