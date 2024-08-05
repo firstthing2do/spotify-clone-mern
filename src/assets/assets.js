@@ -27,6 +27,14 @@ import img6 from './6.jpg'
 import img7 from './7.jpg'
 import img8 from './8.jpg'
 import img9 from './9.jpg'
+import img10 from './10.jpg'
+import img11 from './11.jpg'
+import img12 from './12.jpg'
+import img13 from './13.jpg'
+import img14 from './14.jpg'
+import img15 from './15.jpg'
+import img16 from './16.jpg'
+import img17 from './17.jpg'
 import song1 from './song1.mp3'
 import song2 from './song2.mp3'
 
@@ -59,6 +67,14 @@ export const assets = {
     img7,
     img8,
     img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
+    img15,
+    img16,
+    img17,
     song1,
     song2 
 }
@@ -79,6 +95,34 @@ export const albumData = [
         image: img2,
         desc: "Put a big smile on your face",
         bgColor: "#234e52"
+    },
+    {
+        id: 3,
+        name: "Trading Locally",
+        image: img3,
+        desc: "Put a big smile on your face",
+        bgColor: "#234e52"
+    },
+    {
+        id: 4,
+        name: "Trading Locally",
+        image: img4,
+        desc: "Put a big smile on your face",
+        bgColor: "#234e52"
+    },
+    {
+        id: 5,
+        name: "Trading Locally",
+        image: img5,
+        desc: "Put a big smile on your face",
+        bgColor: "#234e52"
+    },
+    {
+        id: 6,
+        name: "Trading Locally",
+        image: img6,
+        desc: "Put a big smile on your face",
+        bgColor: "#234e52"
     }
 ]
 
@@ -86,7 +130,7 @@ export const songsData = [
     {
         id : 0,
         name :" Song one",
-        image: img1,
+        image: img9,
         file : song1,
         desc: "Put a smile one your face for some happy tunes",
         duration: "7:08"
@@ -94,7 +138,55 @@ export const songsData = [
     {
         id: 1,
         name : "Song two",
-        image: img2,
+        image: img10,
+        file: song2,
+        desc: "Put some music on for the dj to play",
+        duration: '4:50'
+    },
+    {
+        id: 2,
+        name : "Song two",
+        image: img11,
+        file: song2,
+        desc: "Put some music on for the dj to play",
+        duration: '4:50'
+    },
+    {
+        id: 3,
+        name : "Song two",
+        image: img12,
+        file: song2,
+        desc: "Put some music on for the dj to play",
+        duration: '4:50'
+    },
+    {
+        id: 4,
+        name : "Song two",
+        image: img14,
+        file: song2,
+        desc: "Put some music on for the dj to play",
+        duration: '4:50'
+    },
+    {
+        id: 5,
+        name : "Song two",
+        image: img15,
+        file: song2,
+        desc: "Put some music on for the dj to play",
+        duration: '4:50'
+    },
+    {
+        id: 6,
+        name : "Song two",
+        image: img16,
+        file: song2,
+        desc: "Put some music on for the dj to play",
+        duration: '4:50'
+    },
+    {
+        id: 7,
+        name : "Song two",
+        image: img17,
         file: song2,
         desc: "Put some music on for the dj to play",
         duration: '4:50'
