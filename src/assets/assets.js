@@ -90,7 +90,7 @@ export const albumData = [
         name: "Trading Globally",
         image: img1,
         desc: "Put a big smile on your face",
-        bgColor: "#44337a"
+        bgColor: "#22543d"
     },
 
     {
@@ -119,14 +119,14 @@ export const albumData = [
         name: "Trading Locally",
         image: img5,
         desc: "Put a big smile on your face",
-        bgColor: "#234e52"
+        bgColor: "#44337a"
     },
     {
         id: 5,
         name: "Trading Locally",
         image: img6,
         desc: "Put a big smile on your face",
-        bgColor: "#234e52"
+        bgColor: "#44337a"
     }
 ]
 
