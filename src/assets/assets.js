@@ -35,6 +35,8 @@ import img14 from './14.jpg'
 import img15 from './15.jpg'
 import img16 from './16.jpg'
 import img17 from './17.jpg'
+import spotify_logo from './spotify.png'
+import clock from './clock.png'
 import song1 from './song1.mp3'
 import song2 from './song2.mp3'
 
@@ -75,6 +77,8 @@ export const assets = {
     img15,
     img16,
     img17,
+    spotify_logo,
+    clock,
     song1,
     song2 
 }
@@ -97,28 +101,28 @@ export const albumData = [
         bgColor: "#234e52"
     },
     {
-        id: 3,
+        id: 2,
         name: "Trading Locally",
         image: img3,
         desc: "Put a big smile on your face",
-        bgColor: "#234e52"
+        bgColor: "#742a2a"
     },
     {
-        id: 4,
+        id: 3,
         name: "Trading Locally",
         image: img4,
         desc: "Put a big smile on your face",
-        bgColor: "#234e52"
+        bgColor: "#22543d"
     },
     {
-        id: 5,
+        id: 4,
         name: "Trading Locally",
         image: img5,
         desc: "Put a big smile on your face",
         bgColor: "#234e52"
     },
     {
-        id: 6,
+        id: 5,
         name: "Trading Locally",
         image: img6,
         desc: "Put a big smile on your face",
@@ -145,7 +149,7 @@ export const songsData = [
     },
     {
         id: 2,
-        name : "Song two",
+        name : "Song three",
         image: img11,
         file: song2,
         desc: "Put some music on for the dj to play",
@@ -153,7 +157,7 @@ export const songsData = [
     },
     {
         id: 3,
-        name : "Song two",
+        name : "Song four",
         image: img12,
         file: song2,
         desc: "Put some music on for the dj to play",
@@ -161,7 +165,7 @@ export const songsData = [
     },
     {
         id: 4,
-        name : "Song two",
+        name : "Song five",
         image: img14,
         file: song2,
         desc: "Put some music on for the dj to play",
@@ -169,7 +173,7 @@ export const songsData = [
     },
     {
         id: 5,
-        name : "Song two",
+        name : "Song six",
         image: img15,
         file: song2,
         desc: "Put some music on for the dj to play",
@@ -177,7 +181,7 @@ export const songsData = [
     },
     {
         id: 6,
-        name : "Song two",
+        name : "Song seven",
         image: img16,
         file: song2,
         desc: "Put some music on for the dj to play",
@@ -185,7 +189,7 @@ export const songsData = [
     },
     {
         id: 7,
-        name : "Song two",
+        name : "Song eight",
         image: img17,
         file: song2,
         desc: "Put some music on for the dj to play",
