@@ -7,6 +7,7 @@ import shuffle from './shuffle.png'
 import prev from './prev.png'
 import next from './next.png'
 import play from './play.png'
+import pause from './pause.png'
 import plus from './plus.png'
 import loop from './loop.png'
 import plays from './plays.png'
@@ -49,6 +50,7 @@ export const assets = {
     prev,
     next,
     play,
+    pause,
     loop,
     plays,
     mic,
