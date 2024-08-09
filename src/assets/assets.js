@@ -153,7 +153,7 @@ export const songsData = [
         id: 2,
         name : "Song three",
         image: img11,
-        file: song2,
+        file: song1,
         desc: "Put some music on for the dj to play",
         duration: '4:50'
     },
@@ -169,7 +169,7 @@ export const songsData = [
         id: 4,
         name : "Song five",
         image: img14,
-        file: song2,
+        file: song1,
         desc: "Put some music on for the dj to play",
         duration: '4:50'
     },
@@ -185,7 +185,7 @@ export const songsData = [
         id: 6,
         name : "Song seven",
         image: img16,
-        file: song2,
+        file: song1,
         desc: "Put some music on for the dj to play",
         duration: '4:50'
     },
