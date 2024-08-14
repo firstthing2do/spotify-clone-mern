@@ -1,6 +1,6 @@
-import { addSong, listSong } from "../controllers/songController"
+import { addSong, listSong } from "../controllers/songController.js"
 import express from "express"
-import upload from "../middleware/multer"
+import upload from "../middleware/multer.js"
 
 const songRouter = express.Router()
 
