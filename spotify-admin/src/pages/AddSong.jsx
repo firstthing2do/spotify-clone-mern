@@ -63,7 +63,7 @@ const AddSong = () => {
       </div>
       <div className='flex flex-col gap-4'>
         <p>Upload Image</p>
-        <input onChange={(e) => setImage(e.target.files[0])} type="file" id='image' accept='song/*' hidden />
+        <input onChange={(e) => setImage(e.target.files[0])} type="file" id='image' accept='image/*' hidden />
         <label htmlFor="image">
           <img src={image ? URL.createObjectURL(image) : assets.u_area} className='w-24 cursor-pointer' alt="" />
         </label>

@@ -56,7 +56,7 @@ const ListSong = () => {
               <p>{item.name}</p>
               <p>{item.album}</p>
               <p>{item.duration}</p>
-              <p onClick={() => removeSong(item.id)} className='cursor-pointer'>x</p>
+              <p onClick={() => removeSong(item._id)} className='cursor-pointer'>x</p>
             </div>
           )
         })}
